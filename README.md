@@ -2,7 +2,7 @@
 
 This bot learns with every move made via Q-Learning
 
-![alt text](https://raw.githubusercontent.com/devaar100/RL-FlapPyBird/master/FlapPyBird/screenshot1.png)
+![alt text](https://raw.githubusercontent.com/devaar100/RL-FlapPyBird/master/FlapPyBird/ScreenShot.png)
 
 ### Working
 With every move made, the bird observes the state it was in, and the action it took. With regards to their outcomes, it punishes or rewards the state-action pairs. After playing the game numerous times, the bird is able to consistently obtain high scores.
