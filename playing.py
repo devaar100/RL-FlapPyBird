@@ -25,7 +25,10 @@ def play(model):
         action = (np.argmax(model.predict(np.array([state]))[0]))
 
         # Take action.
-        state,_ = game_state.frame_step(action)
+        state,reward = game_state.frame_step(action)
+        
+        if reward == -1000:
+            break
 
 
 if __name__ == "__main__":
